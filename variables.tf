@@ -9,11 +9,11 @@ variable "tags" {
   }
 }
 variable "AWS_ACCESS_KEY" {
-  description = "Enter your AWS access key"
+  description = "Enter your AWS access key   "
 }
 variable "AWS_SECRET_KEY" {
   description = "Enter your AWS secret key"
 }
-variable "AWS_REGION" {
-  description = "The AWS region you want this architecture to be deployed. The following regions are approved by Avalara CSS: us-east-1, us-west-2, eu-west-1, ap-south-1"
-}
+# variable "AWS_REGION" {
+#   description = "The AWS region you want this architecture to be deployed. The following regions are approved by Avalara CSS: us-east-1, us-west-2, eu-west-1, ap-south-1"
+# }
